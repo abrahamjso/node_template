@@ -12,7 +12,7 @@ module.exports = {
 			},
 			production: {
 				mongo: {
-					host: "mongodb://bbxmstudios:mexico01@ds153352.mlab.com:53352/mabi",
+					host: "mongodb://<user>:<password>@ds153352.mlab.com:53352/mabi",
 					port: 53352,
 					db: "mabi"
 				}
