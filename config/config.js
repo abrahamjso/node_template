@@ -5,14 +5,14 @@ module.exports = {
 		db: {
 			development: {
 				mongo: {
-					host: "mongodb://localhost/mabi3",
+					host: "mongodb://localhost/<db>",
 					port: 28015,
 					db: "mabi2"
 				}
 			},
 			production: {
 				mongo: {
-					host: "mongodb://<user>:<password>@ds153352.mlab.com:53352/mabi",
+					host: "mongodb://localhost/<db>",
 					port: 53352,
 					db: "mabi"
 				}
